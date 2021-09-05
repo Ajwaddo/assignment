@@ -21,8 +21,9 @@ from sqlite3.dbapi2 import SQLITE_SELECT, connect
 connection = sqlite3.connect('user.db')
 myCursor = connection.cursor()
 #in user.db, it has one table(userdata) that contains(user_name text, user_age int, ic_number text, phone_number text, post_code int, home_address text, q1 text, q2 text, q3 text, q4 text, q5 text, q6 text, priority int)""") 
+
+########## Hannah's part ##########
 ########################################################### FUNCTIONS FOR WELCOMEPAGE #########################################################################
-    
 
 def login_func(): #login page
     Phone = input('Enter your phone number: \n').strip()
@@ -39,7 +40,7 @@ def login_func(): #login page
     else:
         print("Login failed. Please try again.")
         login_func()
-    
+
 def signup_func(): #signup page
     print("Please key in the following details:")
     name = input('Name: Capital Letters \n').title().strip()
@@ -66,9 +67,6 @@ def welcome_func(): #so users have the option to login or register
 
 ########################################################### FUNCTIONS FOR WELCOMEPAGE #########################################################################
 
-
-
-
 ########################################################### WELCOMEPAGE #########################################################################
 
 print('Hello user!')
@@ -78,6 +76,18 @@ print('Welcome to MySejahtera!\n')
 welcome_func()
 
 ########################################################### WELCOMEPAGE #########################################################################
+######### Hannah's part ##########
 
+########## Hakeem's part ##########
+#hakeem, please type out your code here
+########## Hakeem's part ##########
+
+########## Nabilah's part ##########
+#nabilah, please type out your code here
+########## Nabilah's part ##########
+
+########## ajwad's part ###########    
+#ajwad, please type out your code here
+########## ajwad's part ########### 
 
 
